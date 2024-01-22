@@ -1,0 +1,60 @@
+.mainLeft {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	@media (max-width: 390px) {
+		width: 390px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+	div {
+		h2 {
+			font-size: 46px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			@media (max-width: 390px) {
+				color: #fff;
+				text-align: center;
+				font-size: 24px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+			}
+			span {
+				color: #c0b7e8;
+			}
+		}
+	}
+	p {
+		width: 450px;
+		height: 72px;
+		color: #fff;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		@media (max-width: 390px) {
+			display: none;
+		}
+	}
+	.leftLastSec {
+		display: flex;
+		align-items: center;
+		@media (max-width: 390px) {
+			width: 390px;
+		}
+		button{
+			@media (max-width: 390px) {
+				margin: 0 auto;
+		}
+	}
+		img{
+			@media (max-width: 390px) {
+				display: none;
+			}
+		}
+	}
+}
